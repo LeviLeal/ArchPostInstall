@@ -6,7 +6,6 @@ sudo pacman -S git base-devel
 
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
-sudo pacman -S base-devel
 makepkg -si
 cd ..
 sudo rm -rf ./yay-bin

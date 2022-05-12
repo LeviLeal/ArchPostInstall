@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#yay
+#install yay for aur usage
+
+sudo pacman -S git base-devel
 
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
@@ -11,7 +13,7 @@ sudo rm -rf ./yay-bin
 
 #basic
 
-yes | yay -S bash-completion flatpak git base-devel jdk8-openjdk brave-bin element-desktop
+yes | yay -S bash-completion flatpak jdk8-openjdk brave-bin element-desktop
 
 #nautilus desktop button restored
 

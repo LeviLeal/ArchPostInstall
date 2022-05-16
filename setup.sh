@@ -3,6 +3,6 @@
 desktop=$1
 desktop="${desktop}.sh}"
 
-./flatpak.sh
+./personal.sh
 ./essentials.sh
 ./"${desktop}".

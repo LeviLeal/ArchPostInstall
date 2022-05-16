@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#install yay for aur usage
+#yay para usar o AUR facilmente
 
 sudo pacman -S git base-devel
 
@@ -10,10 +10,10 @@ makepkg -si
 cd ..
 sudo rm -rf ./yay-bin
 
-#basic
+#basico
 
-yes | yay -S bash-completion flatpak jdk8-openjdk brave-bin element-desktop
+yes | yay -S bash-completion flatpak unrar
 
-#nautilus desktop button restored
+#botão de deskto do nautilus restaurado
 
 dconf write /org/gnome/desktop/background/show-desktop-icons true

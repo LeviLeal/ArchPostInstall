@@ -2,7 +2,7 @@
 
 yes | sudo pacman -S nemo gnome-tweaks pavucontrol gnome-software-packagekit-plugin -y
 
-#nemo as default file manager
+#nemo como gerenciador de arquivos padrão
 
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 

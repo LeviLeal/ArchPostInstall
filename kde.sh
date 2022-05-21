@@ -1,6 +1,8 @@
 #!/bin/bash
 
-yes | yay -S gnome-disk-utility gwenview baobab ffmpegthumbs spectacle kclock kalk noto-fonts-emoji elisa
+#need to be install yay to run this script
+
+yes | yay -S gnome-disk-utility gwenview baobab ffmpegthumbs spectacle kclock kalk noto-fonts-emoji elisa yay lightly-qt
 
 # make dolphin default in all cases
 xdg-mime default org.kde.dolphin.desktop inode/directory

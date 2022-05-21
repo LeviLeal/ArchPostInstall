@@ -12,8 +12,8 @@ sudo rm -rf ./yay-bin
 
 #basico
 
-yes | yay -S bash-completion flatpak unrar
+yes | yay -S bash-completion flatpak unrar noto-fonts-cjk noto-fonts-emoji noto-fonts
 
-#botão de deskto do nautilus restaurado
+#botão de desktop do nautilus restaurado
 
 dconf write /org/gnome/desktop/background/show-desktop-icons true

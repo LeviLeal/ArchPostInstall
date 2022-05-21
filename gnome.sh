@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#need to be install yay to run this script
+
 yes | sudo pacman -S nemo gnome-tweaks pavucontrol gnome-software-packagekit-plugin rhythmbox -y
 
 #nemo como gerenciador de arquivos padrão

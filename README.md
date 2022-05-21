@@ -1,4 +1,4 @@
-# MyArchPostInstall
+# ArchPostInstall
 
 Uso
 

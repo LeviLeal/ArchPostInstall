@@ -1,20 +1,19 @@
 # MyArchPostInstall
 
-Instruções de uso
+Uso
 
-Baixe, e dê permissão de execução aos scripts da pasta
+Baixe, e dê permissão de execução aos scripts
+caso não tenha o git, baixe pelo github
 
 git clone https://github.com/LeviLeal/MyArchPostInstall.git
 cd MyArchPostInstall
 chmod +x *
 
-Obs: É precisar usar o sudo para o pacman funcionar
-
 Use o setup com
 
-./setup.sh 
+sudo ./setup.sh 
 
-Pode escolher instalar coisas para o KDE ou Gnome colocando
+Para escolher instalar pacotes para o KDE ou Gnome
 
 ./setup.sh gnome
 ./setup.sh kde

@@ -3,6 +3,7 @@
 Uso
 
 Baixe, e dê permissão de execução aos scripts
+
 caso não tenha o git, baixe pelo github
 
 git clone https://github.com/LeviLeal/MyArchPostInstall.git
